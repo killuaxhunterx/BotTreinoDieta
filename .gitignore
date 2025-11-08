@@ -1,0 +1,7 @@
+.env
+__pycache__/
+conversation.py
+gemini.py
+main.py
+telebot.py
+venv
