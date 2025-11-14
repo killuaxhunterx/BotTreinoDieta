@@ -4,7 +4,7 @@ from telegram.ext import ContextTypes
 class Start:
 
     async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
-        GENDER = range(1)
+        NAME = range(1)
 
         await update.message.reply_text(
             "Olá, estou aqui para ajudar você a alcançar seus objetivos relacionado ao seu corpo, " \
@@ -12,4 +12,4 @@ class Start:
             "Caso contrário, digite /cancelar para finalizar a conversa."
         )
 
-        return GENDER
+        return NAME
