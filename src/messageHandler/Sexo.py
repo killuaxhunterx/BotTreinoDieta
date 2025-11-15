@@ -3,6 +3,7 @@ from telegram.ext import ContextTypes
 from logging import Logger
 import logging
 from states.States import States
+from Data.Data import Data
 
 
 class Sexo:
