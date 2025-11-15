@@ -2,6 +2,6 @@
 __pycache__/
 conversation.py
 gemini.py
-main.py
+/main.py
 telebot.py
 venv
