@@ -20,5 +20,7 @@ class EnviarPdf:
                     document = InputFile(pdf, filename="suaDietaETreino.pdf"),
                 )
         except Exception as e:
-            print(e)
+            print(f"Erro em enviar pdf: {e}")
+        except FileNotFoundError as e:
+            print(f"Arquivo não encontrado: {e}")
         return ConversationHandler.END

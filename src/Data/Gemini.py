@@ -24,5 +24,5 @@ class Gemini:
             )
             return response.text
         except Exception as e:
-            print(f"Error em gerar conteudo {e}")
+            print(f"Error em gerar conteudo: {e}")
        
