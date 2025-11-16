@@ -1,7 +1,6 @@
 from telegram import Update
 from telegram.ext import CommandHandler, filters, MessageHandler, Application, ConversationHandler
 from dotenv import load_dotenv
-from Data import GerarPdf
 from commands import EnviarPdf, Start, Cancel
 from messageHandler import (IntensidadeTreino, Name, Idade, Sexo, PesoAtual, DiasTreino, Altura, Objetivo, 
                             SaudeCondicao, ExperienciaTreino, OndeVaiTreinar, Horario, TipoAlimento, 
@@ -39,7 +38,6 @@ def main() -> None:
     horarioFixoComer = HorarioFixoComer.HorarioFixoComer.horarioFixoComer
     preparoComida = PreparoComida.PreparoComida.preparoComida
     facilAcessoAlimentos = FacilAcessoAlimentos.FacilAcessoAlimentos.facilAcessoAlimentos
-    gerarPdf = GerarPdf.GerarPdf.gerarPdf
     enviarPdf = EnviarPdf.EnviarPdf.enviarPdf
     conversationHandler = ConversationHandler(
         entry_points=[CommandHandler('start', start)],
