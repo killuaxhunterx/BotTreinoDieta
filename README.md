@@ -35,17 +35,17 @@ O projeto foi desenvolvido majoritariamente em Python, utilizando as seguintes b
 Clone o repositório e instale as bibliotecas necessárias:
 Bash
 
-git clone https://github.com/killuaxhunterx/BotTreinoDieta/tree/master
-
-cd botTreinoDieta
-
-pip install python-telegram-bot
-
-pip install fpdf
-
-pip install google-genai
-
-pip install dotenv
+    git clone https://github.com/killuaxhunterx/BotTreinoDieta/tree/master
+    
+    cd botTreinoDieta
+    
+    pip install python-telegram-bot
+    
+    pip install fpdf
+    
+    pip install google-genai
+    
+    pip install dotenv
 
 3. Configuração
 
