@@ -51,13 +51,13 @@ O projeto foi desenvolvido majoritariamente em Python, utilizando as seguintes b
     Substitua SEU_TOKEN_AQUI pelo seu token real do Telegram no seu arquivo principal (ex: bot.py):
     Python
 
-    TOKEN = 'SEU_TOKEN_AQUI' 
+        TOKEN = 'SEU_TOKEN_AQUI' 
 
 4. Inicialização
 
-Execute o script principal do bot:
+    Execute o script principal do bot:
 
-    python main.py
+        python main.py
 
 👨‍💻 Como Usar o Bot
 
