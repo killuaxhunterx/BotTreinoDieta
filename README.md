@@ -26,7 +26,7 @@ O projeto foi desenvolvido majoritariamente em Python, utilizando as seguintes b
 
 1. Pré-requisitos
 
-    Python 3.x instalado.
+    Python 3.13 instalado.
 
     Conta no Telegram e um Token de Bot (obtido via BotFather).
 
@@ -35,10 +35,12 @@ O projeto foi desenvolvido majoritariamente em Python, utilizando as seguintes b
 Clone o repositório e instale as bibliotecas necessárias:
 Bash
 
-git clone <URL_DO_SEU_REPOSITORIO>
-cd <nome_do_seu_repositorio>
+git clone https://github.com/killuaxhunterx/BotTreinoDieta/tree/master
+cd botTreinoDieta
 pip install python-telegram-bot
 pip install fpdf
+pip install google-genai
+pip install dotenv
 
 3. Configuração
 
@@ -52,7 +54,7 @@ TOKEN = 'SEU_TOKEN_AQUI'
 Execute o script principal do bot:
 Bash
 
-python bot.py
+python main.py
 
 👨‍💻 Como Usar o Bot
 
@@ -62,7 +64,7 @@ python bot.py
 
     Inicie a Geração: Use o comando para começar a coleta de dados:
 
-        /gerar_plano
+        /gerarPdf
 
     Responda às Perguntas: Siga as instruções e responda as perguntas sobre seus objetivos, saúde, dieta e rotina de treino.
 
