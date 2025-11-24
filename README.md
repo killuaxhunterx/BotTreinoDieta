@@ -1,6 +1,6 @@
 🤖 Diet & Workout Generator Bot - Telegram
 
-Este projeto é um bot de Telegram construído em Python, utilizando a biblioteca python-telegram-bot (PTB), projetado para coletar informações detalhadas do usuário (sobre dieta e treino) e, em seguida, gerar um plano personalizado. O resultado final é entregue como um documento PDF formatado, gerado pela biblioteca FPDF.
+Este projeto é um bot de Telegram construído em Python, utilizando a biblioteca python-telegram-bot (PTB), projetado para coletar informações detalhadas do usuário (sobre dieta e treino) e, em seguida, gerar um plano personalizado com integração com IA. O resultado final é entregue como um documento PDF formatado, gerado pela biblioteca FPDF.
 
 ✨ Funcionalidades Principais
 
